@@ -13,12 +13,18 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		B43326BE230FFD1F00D2802F /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = B43326B4230FFD1F00D2802F /* NSString+MD5.m */; };
+		B43326BF230FFD1F00D2802F /* HZDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B43326B6230FFD1F00D2802F /* HZDiskCache.m */; };
+		B43326C0230FFD1F00D2802F /* HZMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B43326B7230FFD1F00D2802F /* HZMemoryCache.m */; };
+		B43326C1230FFD1F00D2802F /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B43326BA230FFD1F00D2802F /* UIImageView+WebCache.m */; };
+		B43326C2230FFD1F00D2802F /* HZFileDataGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = B43326BB230FFD1F00D2802F /* HZFileDataGetter.m */; };
+		B43326C3230FFD1F00D2802F /* HZNetUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B43326BC230FFD1F00D2802F /* HZNetUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0F1E615B6BBC43471BE66859 /* Pods-HANZWebImage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HANZWebImage_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HANZWebImage_Tests/Pods-HANZWebImage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		241EF07F95425AA0F0CC4CE6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		3DD9E7842D01373343966F57 /* HANZWebImage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HANZWebImage.podspec; path = ../HANZWebImage.podspec; sourceTree = "<group>"; };
+		241EF07F95425AA0F0CC4CE6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3DD9E7842D01373343966F57 /* HANZWebImage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HANZWebImage.podspec; path = ../HANZWebImage.podspec; sourceTree = "<group>"; };
 		44CF35DC7937F6FA5F98CEE7 /* Pods_HANZWebImage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HANZWebImage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -30,7 +36,19 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		9AB6AEE7FAF6B22B78B7D001 /* Pods-HANZWebImage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HANZWebImage_Tests.release.xcconfig"; path = "Target Support Files/Pods-HANZWebImage_Tests/Pods-HANZWebImage_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E657A472A52FCBC57F847F80 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B43326B2230FFD1F00D2802F /* HZNetUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZNetUtil.h; sourceTree = "<group>"; };
+		B43326B3230FFD1F00D2802F /* HZFileDataGetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZFileDataGetter.h; sourceTree = "<group>"; };
+		B43326B4230FFD1F00D2802F /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		B43326B5230FFD1F00D2802F /* HZDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZDiskCache.h; sourceTree = "<group>"; };
+		B43326B6230FFD1F00D2802F /* HZDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZDiskCache.m; sourceTree = "<group>"; };
+		B43326B7230FFD1F00D2802F /* HZMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZMemoryCache.m; sourceTree = "<group>"; };
+		B43326B8230FFD1F00D2802F /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		B43326B9230FFD1F00D2802F /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		B43326BA230FFD1F00D2802F /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		B43326BB230FFD1F00D2802F /* HZFileDataGetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZFileDataGetter.m; sourceTree = "<group>"; };
+		B43326BC230FFD1F00D2802F /* HZNetUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZNetUtil.m; sourceTree = "<group>"; };
+		B43326BD230FFD1F00D2802F /* HZMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZMemoryCache.h; sourceTree = "<group>"; };
+		E657A472A52FCBC57F847F80 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,13 +72,13 @@
 				0F1E615B6BBC43471BE66859 /* Pods-HANZWebImage_Tests.debug.xcconfig */,
 				9AB6AEE7FAF6B22B78B7D001 /* Pods-HANZWebImage_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				B43326B1230FFCBF00D2802F /* Classes */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
@@ -118,6 +136,49 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		B43326B1230FFCBF00D2802F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B43326C6230FFD7900D2802F /* HZImage */,
+				B43326C5230FFD6100D2802F /* HZNet */,
+				B43326C4230FFD4500D2802F /* HZCache */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B43326C4230FFD4500D2802F /* HZCache */ = {
+			isa = PBXGroup;
+			children = (
+				B43326B5230FFD1F00D2802F /* HZDiskCache.h */,
+				B43326B6230FFD1F00D2802F /* HZDiskCache.m */,
+				B43326B3230FFD1F00D2802F /* HZFileDataGetter.h */,
+				B43326BB230FFD1F00D2802F /* HZFileDataGetter.m */,
+				B43326BD230FFD1F00D2802F /* HZMemoryCache.h */,
+				B43326B7230FFD1F00D2802F /* HZMemoryCache.m */,
+			);
+			path = HZCache;
+			sourceTree = "<group>";
+		};
+		B43326C5230FFD6100D2802F /* HZNet */ = {
+			isa = PBXGroup;
+			children = (
+				B43326B2230FFD1F00D2802F /* HZNetUtil.h */,
+				B43326BC230FFD1F00D2802F /* HZNetUtil.m */,
+			);
+			path = HZNet;
+			sourceTree = "<group>";
+		};
+		B43326C6230FFD7900D2802F /* HZImage */ = {
+			isa = PBXGroup;
+			children = (
+				B43326B8230FFD1F00D2802F /* NSString+MD5.h */,
+				B43326B4230FFD1F00D2802F /* NSString+MD5.m */,
+				B43326B9230FFD1F00D2802F /* UIImageView+WebCache.h */,
+				B43326BA230FFD1F00D2802F /* UIImageView+WebCache.m */,
+			);
+			path = HZImage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,6 +212,7 @@
 				ORGANIZATIONNAME = hanzh6;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = 53FCQFH33T;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -160,6 +222,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -232,7 +295,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B43326BE230FFD1F00D2802F /* NSString+MD5.m in Sources */,
+				B43326C3230FFD1F00D2802F /* HZNetUtil.m in Sources */,
+				B43326C0230FFD1F00D2802F /* HZMemoryCache.m in Sources */,
+				B43326C2230FFD1F00D2802F /* HZFileDataGetter.m in Sources */,
+				B43326C1230FFD1F00D2802F /* UIImageView+WebCache.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				B43326BF230FFD1F00D2802F /* HZDiskCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +396,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0F1E615B6BBC43471BE66859 /* Pods-HANZWebImage_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 53FCQFH33T;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -351,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9AB6AEE7FAF6B22B78B7D001 /* Pods-HANZWebImage_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 53FCQFH33T;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

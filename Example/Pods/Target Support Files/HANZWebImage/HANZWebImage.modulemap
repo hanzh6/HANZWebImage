@@ -1,0 +1,6 @@
+framework module HANZWebImage {
+  umbrella header "HANZWebImage-umbrella.h"
+
+  export *
+  module * { export * }
+}

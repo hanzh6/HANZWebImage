@@ -1,0 +1,16 @@
+PODS:
+  - HANZWebImage (0.1.0)
+
+DEPENDENCIES:
+  - HANZWebImage (from `../`)
+
+EXTERNAL SOURCES:
+  HANZWebImage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HANZWebImage: 5b6efc3f539b758dbcdedf3f0f4d079a21a3eac7
+
+PODFILE CHECKSUM: 8040d04c613e8c9d253ef7b63aefa665fecada94
+
+COCOAPODS: 1.7.5

@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1958CB45C355D6EB719C688472E6DFFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		55D155052B164959025E0E3349BD399E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9649CC04876A97C50A9D580FD1EBACE6 /* HANZWebImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE6D5E6E12B25CA0D1F5A25D91820D3B /* HANZWebImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AE7F3460148DB617E2A67F4A0C9F4FC /* HANZWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9512A844B37B5E7698689C4E07F9943B /* HANZWebImage-dummy.m */; };
+		B0CB2B7C14CD17C151FDDE8FAF6400D1 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 38532DC2EF03567E8522B07402E732C4 /* ReplaceMe.m */; };
+		B2284F54B5E5208B69C012F498185FAC /* Pods-HANZWebImage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC549E36215DCF2FA2A544FFF2E1106 /* Pods-HANZWebImage_Tests-dummy.m */; };
+		D8560914E2FC3F8887301EE3F90C18FA /* Pods-HANZWebImage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFD66501B446B26C3EF6DD13D891D15F /* Pods-HANZWebImage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12BB9D7B361FD2E49556A2F4578606CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78062752A4EACE4514751ACCA1F3724B;
+			remoteInfo = HANZWebImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		129A355C8937174EB08723717ED571D4 /* Pods_HANZWebImage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HANZWebImage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1314E6197A06E53994689C882B9C0BB0 /* Pods-HANZWebImage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HANZWebImage_Tests.modulemap"; sourceTree = "<group>"; };
+		1F8BB7512FF2F0A26EFC439DB1E542B4 /* HANZWebImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HANZWebImage-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		37A7479A47B8C12B80B5421ABF611983 /* Pods-HANZWebImage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HANZWebImage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		38532DC2EF03567E8522B07402E732C4 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HANZWebImage/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		48014C40D38ABF7A66C07BC970C434A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4C387541EB496A5FB1624363C9C3F006 /* Pods-HANZWebImage_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HANZWebImage_Tests-Info.plist"; sourceTree = "<group>"; };
+		76F6DAE9C043264AB9B50D7F461A38E2 /* Pods-HANZWebImage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HANZWebImage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		79B5B9017953EC05FE7B462B69CCB79D /* HANZWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HANZWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		863395571BC2678AFBEEAFA76A680790 /* Pods-HANZWebImage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HANZWebImage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C87C8694C54F902DA8F983C9C072DC2 /* HANZWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HANZWebImage-prefix.pch"; sourceTree = "<group>"; };
+		9512A844B37B5E7698689C4E07F9943B /* HANZWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HANZWebImage-dummy.m"; sourceTree = "<group>"; };
+		966171120CC3804489B5F7B77FAED857 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A01EF21CEFF109585A8A982B2F0DBBD1 /* Pods-HANZWebImage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HANZWebImage_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AE6D5E6E12B25CA0D1F5A25D91820D3B /* HANZWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HANZWebImage-umbrella.h"; sourceTree = "<group>"; };
+		B8354450939DFE42B768F91754E800F3 /* HANZWebImage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HANZWebImage.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		C0C6F65CBB1D5186A7732F8C3246FE19 /* HANZWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HANZWebImage.modulemap; sourceTree = "<group>"; };
+		C5D1AB3CD0184E6DDD78458C3540EF9D /* Pods-HANZWebImage_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HANZWebImage_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DCC549E36215DCF2FA2A544FFF2E1106 /* Pods-HANZWebImage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HANZWebImage_Tests-dummy.m"; sourceTree = "<group>"; };
+		FC496D8066A669FACF040F4506A94500 /* HANZWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HANZWebImage.xcconfig; sourceTree = "<group>"; };
+		FFD66501B446B26C3EF6DD13D891D15F /* Pods-HANZWebImage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HANZWebImage_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		208BF43C601D25814FF6F990E46AC245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1958CB45C355D6EB719C688472E6DFFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3AB1C6E000727E867F8160D679663BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D155052B164959025E0E3349BD399E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67D22A4EEAF9D131804BBF791A220289 /* HANZWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				38532DC2EF03567E8522B07402E732C4 /* ReplaceMe.m */,
+				B6B093D186CCCDEDC061FCCD352FF461 /* Pod */,
+				7D53FDCCF45C267401D03CFC8EB5A994 /* Support Files */,
+			);
+			name = HANZWebImage;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6A92E3CB20F283DAA4EBC57724F9B1BB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67D22A4EEAF9D131804BBF791A220289 /* HANZWebImage */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7D53FDCCF45C267401D03CFC8EB5A994 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0C6F65CBB1D5186A7732F8C3246FE19 /* HANZWebImage.modulemap */,
+				FC496D8066A669FACF040F4506A94500 /* HANZWebImage.xcconfig */,
+				9512A844B37B5E7698689C4E07F9943B /* HANZWebImage-dummy.m */,
+				1F8BB7512FF2F0A26EFC439DB1E542B4 /* HANZWebImage-Info.plist */,
+				8C87C8694C54F902DA8F983C9C072DC2 /* HANZWebImage-prefix.pch */,
+				AE6D5E6E12B25CA0D1F5A25D91820D3B /* HANZWebImage-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HANZWebImage";
+			sourceTree = "<group>";
+		};
+		A6BD1CD52D5126CE7DA8A1DC8050B366 /* Pods-HANZWebImage_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1314E6197A06E53994689C882B9C0BB0 /* Pods-HANZWebImage_Tests.modulemap */,
+				76F6DAE9C043264AB9B50D7F461A38E2 /* Pods-HANZWebImage_Tests-acknowledgements.markdown */,
+				37A7479A47B8C12B80B5421ABF611983 /* Pods-HANZWebImage_Tests-acknowledgements.plist */,
+				DCC549E36215DCF2FA2A544FFF2E1106 /* Pods-HANZWebImage_Tests-dummy.m */,
+				C5D1AB3CD0184E6DDD78458C3540EF9D /* Pods-HANZWebImage_Tests-frameworks.sh */,
+				4C387541EB496A5FB1624363C9C3F006 /* Pods-HANZWebImage_Tests-Info.plist */,
+				FFD66501B446B26C3EF6DD13D891D15F /* Pods-HANZWebImage_Tests-umbrella.h */,
+				863395571BC2678AFBEEAFA76A680790 /* Pods-HANZWebImage_Tests.debug.xcconfig */,
+				A01EF21CEFF109585A8A982B2F0DBBD1 /* Pods-HANZWebImage_Tests.release.xcconfig */,
+			);
+			name = "Pods-HANZWebImage_Tests";
+			path = "Target Support Files/Pods-HANZWebImage_Tests";
+			sourceTree = "<group>";
+		};
+		A7779F4DEA16BAF8DEC9B34005EDEED9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6BD1CD52D5126CE7DA8A1DC8050B366 /* Pods-HANZWebImage_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B6B093D186CCCDEDC061FCCD352FF461 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B8354450939DFE42B768F91754E800F3 /* HANZWebImage.podspec */,
+				966171120CC3804489B5F7B77FAED857 /* LICENSE */,
+				48014C40D38ABF7A66C07BC970C434A9 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BE282CB52D86708F6F3EE4472986BA66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79B5B9017953EC05FE7B462B69CCB79D /* HANZWebImage.framework */,
+				129A355C8937174EB08723717ED571D4 /* Pods_HANZWebImage_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6A92E3CB20F283DAA4EBC57724F9B1BB /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BE282CB52D86708F6F3EE4472986BA66 /* Products */,
+				A7779F4DEA16BAF8DEC9B34005EDEED9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4484731B64085ADC857FDE1BD913135A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9649CC04876A97C50A9D580FD1EBACE6 /* HANZWebImage-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A606A6BEA6E0D21DEA7AEBBBF4ED943 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8560914E2FC3F8887301EE3F90C18FA /* Pods-HANZWebImage_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		78062752A4EACE4514751ACCA1F3724B /* HANZWebImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDB6ABE6EEE97BEFD99F3BF023E9C3B /* Build configuration list for PBXNativeTarget "HANZWebImage" */;
+			buildPhases = (
+				4484731B64085ADC857FDE1BD913135A /* Headers */,
+				0B1BF188423A1A764D0892B9DCC1C24D /* Sources */,
+				C3AB1C6E000727E867F8160D679663BD /* Frameworks */,
+				7D2F112C7A594CF04ED436728E4ECA7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HANZWebImage;
+			productName = HANZWebImage;
+			productReference = 79B5B9017953EC05FE7B462B69CCB79D /* HANZWebImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B1BBD51554AEE0D2AF38601728B63EA /* Pods-HANZWebImage_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C178E69E3484ED866BE9B9E2CECD16CE /* Build configuration list for PBXNativeTarget "Pods-HANZWebImage_Tests" */;
+			buildPhases = (
+				5A606A6BEA6E0D21DEA7AEBBBF4ED943 /* Headers */,
+				CB9B72CA8D91E9D9833A71F4C7A8816A /* Sources */,
+				208BF43C601D25814FF6F990E46AC245 /* Frameworks */,
+				CACCF4807C24E56D8AC91EA56617744A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				291F831C54C3BC1C7E70624BB74A2FD8 /* PBXTargetDependency */,
+			);
+			name = "Pods-HANZWebImage_Tests";
+			productName = "Pods-HANZWebImage_Tests";
+			productReference = 129A355C8937174EB08723717ED571D4 /* Pods_HANZWebImage_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BE282CB52D86708F6F3EE4472986BA66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78062752A4EACE4514751ACCA1F3724B /* HANZWebImage */,
+				7B1BBD51554AEE0D2AF38601728B63EA /* Pods-HANZWebImage_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D2F112C7A594CF04ED436728E4ECA7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CACCF4807C24E56D8AC91EA56617744A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B1BF188423A1A764D0892B9DCC1C24D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AE7F3460148DB617E2A67F4A0C9F4FC /* HANZWebImage-dummy.m in Sources */,
+				B0CB2B7C14CD17C151FDDE8FAF6400D1 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9B72CA8D91E9D9833A71F4C7A8816A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2284F54B5E5208B69C012F498185FAC /* Pods-HANZWebImage_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		291F831C54C3BC1C7E70624BB74A2FD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HANZWebImage;
+			target = 78062752A4EACE4514751ACCA1F3724B /* HANZWebImage */;
+			targetProxy = 12BB9D7B361FD2E49556A2F4578606CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A5634EC0B53062104D50FA663FC7E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC496D8066A669FACF040F4506A94500 /* HANZWebImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HANZWebImage/HANZWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HANZWebImage/HANZWebImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HANZWebImage/HANZWebImage.modulemap";
+				PRODUCT_MODULE_NAME = HANZWebImage;
+				PRODUCT_NAME = HANZWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A90656BF32BB2DC5467AB3B433A349C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC496D8066A669FACF040F4506A94500 /* HANZWebImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HANZWebImage/HANZWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HANZWebImage/HANZWebImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HANZWebImage/HANZWebImage.modulemap";
+				PRODUCT_MODULE_NAME = HANZWebImage;
+				PRODUCT_NAME = HANZWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CEE5ED1166C6620CAE6CA32C2AAC275C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 863395571BC2678AFBEEAFA76A680790 /* Pods-HANZWebImage_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HANZWebImage_Tests/Pods-HANZWebImage_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HANZWebImage_Tests/Pods-HANZWebImage_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F069C9AD2B7BBF3C25241A137AAC4003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A01EF21CEFF109585A8A982B2F0DBBD1 /* Pods-HANZWebImage_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HANZWebImage_Tests/Pods-HANZWebImage_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HANZWebImage_Tests/Pods-HANZWebImage_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C178E69E3484ED866BE9B9E2CECD16CE /* Build configuration list for PBXNativeTarget "Pods-HANZWebImage_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE5ED1166C6620CAE6CA32C2AAC275C /* Debug */,
+				F069C9AD2B7BBF3C25241A137AAC4003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDB6ABE6EEE97BEFD99F3BF023E9C3B /* Build configuration list for PBXNativeTarget "HANZWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A90656BF32BB2DC5467AB3B433A349C /* Debug */,
+				0A5634EC0B53062104D50FA663FC7E9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
