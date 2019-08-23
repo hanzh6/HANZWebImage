@@ -1,0 +1,6 @@
+use_frameworks!
+target 'HANZWebImage_Tests' do
+  pod 'HANZWebImage', :path => '../'
+  
+  
+end
