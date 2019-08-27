@@ -11,8 +11,20 @@
 		55D155052B164959025E0E3349BD399E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		9649CC04876A97C50A9D580FD1EBACE6 /* HANZWebImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE6D5E6E12B25CA0D1F5A25D91820D3B /* HANZWebImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9AE7F3460148DB617E2A67F4A0C9F4FC /* HANZWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9512A844B37B5E7698689C4E07F9943B /* HANZWebImage-dummy.m */; };
-		B0CB2B7C14CD17C151FDDE8FAF6400D1 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 38532DC2EF03567E8522B07402E732C4 /* ReplaceMe.m */; };
 		B2284F54B5E5208B69C012F498185FAC /* Pods-HANZWebImage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC549E36215DCF2FA2A544FFF2E1106 /* Pods-HANZWebImage_Tests-dummy.m */; };
+		B4DC0D2D2314CCE3000175A9 /* HZDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DC0D202314CCE3000175A9 /* HZDiskCache.m */; };
+		B4DC0D2E2314CCE3000175A9 /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B4DC0D212314CCE3000175A9 /* UIImageView+WebCache.h */; };
+		B4DC0D2F2314CCE3000175A9 /* HZNetUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = B4DC0D222314CCE3000175A9 /* HZNetUtil.h */; };
+		B4DC0D302314CCE3000175A9 /* HZMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DC0D232314CCE3000175A9 /* HZMemoryCache.m */; };
+		B4DC0D312314CCE3000175A9 /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = B4DC0D242314CCE3000175A9 /* NSString+MD5.h */; };
+		B4DC0D322314CCE3000175A9 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = B4DC0D252314CCE3000175A9 /* .gitkeep */; };
+		B4DC0D332314CCE3000175A9 /* HZFileDataGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DC0D262314CCE3000175A9 /* HZFileDataGetter.m */; };
+		B4DC0D342314CCE3000175A9 /* HZDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B4DC0D272314CCE3000175A9 /* HZDiskCache.h */; };
+		B4DC0D352314CCE3000175A9 /* HZMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B4DC0D282314CCE3000175A9 /* HZMemoryCache.h */; };
+		B4DC0D362314CCE3000175A9 /* HZNetUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DC0D292314CCE3000175A9 /* HZNetUtil.m */; };
+		B4DC0D372314CCE3000175A9 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DC0D2A2314CCE3000175A9 /* UIImageView+WebCache.m */; };
+		B4DC0D382314CCE3000175A9 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DC0D2B2314CCE3000175A9 /* NSString+MD5.m */; };
+		B4DC0D392314CCE3000175A9 /* HZFileDataGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = B4DC0D2C2314CCE3000175A9 /* HZFileDataGetter.h */; };
 		D8560914E2FC3F8887301EE3F90C18FA /* Pods-HANZWebImage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFD66501B446B26C3EF6DD13D891D15F /* Pods-HANZWebImage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -32,7 +44,6 @@
 		1F8BB7512FF2F0A26EFC439DB1E542B4 /* HANZWebImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HANZWebImage-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		37A7479A47B8C12B80B5421ABF611983 /* Pods-HANZWebImage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HANZWebImage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		38532DC2EF03567E8522B07402E732C4 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HANZWebImage/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		48014C40D38ABF7A66C07BC970C434A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4C387541EB496A5FB1624363C9C3F006 /* Pods-HANZWebImage_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HANZWebImage_Tests-Info.plist"; sourceTree = "<group>"; };
 		76F6DAE9C043264AB9B50D7F461A38E2 /* Pods-HANZWebImage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HANZWebImage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -44,6 +55,19 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A01EF21CEFF109585A8A982B2F0DBBD1 /* Pods-HANZWebImage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HANZWebImage_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AE6D5E6E12B25CA0D1F5A25D91820D3B /* HANZWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HANZWebImage-umbrella.h"; sourceTree = "<group>"; };
+		B4DC0D202314CCE3000175A9 /* HZDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZDiskCache.m; sourceTree = "<group>"; };
+		B4DC0D212314CCE3000175A9 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		B4DC0D222314CCE3000175A9 /* HZNetUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZNetUtil.h; sourceTree = "<group>"; };
+		B4DC0D232314CCE3000175A9 /* HZMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZMemoryCache.m; sourceTree = "<group>"; };
+		B4DC0D242314CCE3000175A9 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		B4DC0D252314CCE3000175A9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		B4DC0D262314CCE3000175A9 /* HZFileDataGetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZFileDataGetter.m; sourceTree = "<group>"; };
+		B4DC0D272314CCE3000175A9 /* HZDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZDiskCache.h; sourceTree = "<group>"; };
+		B4DC0D282314CCE3000175A9 /* HZMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZMemoryCache.h; sourceTree = "<group>"; };
+		B4DC0D292314CCE3000175A9 /* HZNetUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZNetUtil.m; sourceTree = "<group>"; };
+		B4DC0D2A2314CCE3000175A9 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		B4DC0D2B2314CCE3000175A9 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		B4DC0D2C2314CCE3000175A9 /* HZFileDataGetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZFileDataGetter.h; sourceTree = "<group>"; };
 		B8354450939DFE42B768F91754E800F3 /* HANZWebImage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HANZWebImage.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		C0C6F65CBB1D5186A7732F8C3246FE19 /* HANZWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HANZWebImage.modulemap; sourceTree = "<group>"; };
 		C5D1AB3CD0184E6DDD78458C3540EF9D /* Pods-HANZWebImage_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HANZWebImage_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -75,7 +99,7 @@
 		67D22A4EEAF9D131804BBF791A220289 /* HANZWebImage */ = {
 			isa = PBXGroup;
 			children = (
-				38532DC2EF03567E8522B07402E732C4 /* ReplaceMe.m */,
+				B4DC0D1F2314CCE3000175A9 /* Classes */,
 				B6B093D186CCCDEDC061FCCD352FF461 /* Pod */,
 				7D53FDCCF45C267401D03CFC8EB5A994 /* Support Files */,
 			);
@@ -128,6 +152,27 @@
 				A6BD1CD52D5126CE7DA8A1DC8050B366 /* Pods-HANZWebImage_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B4DC0D1F2314CCE3000175A9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B4DC0D202314CCE3000175A9 /* HZDiskCache.m */,
+				B4DC0D212314CCE3000175A9 /* UIImageView+WebCache.h */,
+				B4DC0D222314CCE3000175A9 /* HZNetUtil.h */,
+				B4DC0D232314CCE3000175A9 /* HZMemoryCache.m */,
+				B4DC0D242314CCE3000175A9 /* NSString+MD5.h */,
+				B4DC0D252314CCE3000175A9 /* .gitkeep */,
+				B4DC0D262314CCE3000175A9 /* HZFileDataGetter.m */,
+				B4DC0D272314CCE3000175A9 /* HZDiskCache.h */,
+				B4DC0D282314CCE3000175A9 /* HZMemoryCache.h */,
+				B4DC0D292314CCE3000175A9 /* HZNetUtil.m */,
+				B4DC0D2A2314CCE3000175A9 /* UIImageView+WebCache.m */,
+				B4DC0D2B2314CCE3000175A9 /* NSString+MD5.m */,
+				B4DC0D2C2314CCE3000175A9 /* HZFileDataGetter.h */,
+			);
+			name = Classes;
+			path = HANZWebImage/Classes;
 			sourceTree = "<group>";
 		};
 		B6B093D186CCCDEDC061FCCD352FF461 /* Pod */ = {
@@ -183,7 +228,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4DC0D352314CCE3000175A9 /* HZMemoryCache.h in Headers */,
+				B4DC0D2F2314CCE3000175A9 /* HZNetUtil.h in Headers */,
+				B4DC0D312314CCE3000175A9 /* NSString+MD5.h in Headers */,
+				B4DC0D392314CCE3000175A9 /* HZFileDataGetter.h in Headers */,
 				9649CC04876A97C50A9D580FD1EBACE6 /* HANZWebImage-umbrella.h in Headers */,
+				B4DC0D342314CCE3000175A9 /* HZDiskCache.h in Headers */,
+				B4DC0D2E2314CCE3000175A9 /* UIImageView+WebCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +318,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4DC0D322314CCE3000175A9 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,8 +336,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4DC0D362314CCE3000175A9 /* HZNetUtil.m in Sources */,
+				B4DC0D332314CCE3000175A9 /* HZFileDataGetter.m in Sources */,
+				B4DC0D372314CCE3000175A9 /* UIImageView+WebCache.m in Sources */,
+				B4DC0D302314CCE3000175A9 /* HZMemoryCache.m in Sources */,
 				9AE7F3460148DB617E2A67F4A0C9F4FC /* HANZWebImage-dummy.m in Sources */,
-				B0CB2B7C14CD17C151FDDE8FAF6400D1 /* ReplaceMe.m in Sources */,
+				B4DC0D2D2314CCE3000175A9 /* HZDiskCache.m in Sources */,
+				B4DC0D382314CCE3000175A9 /* NSString+MD5.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

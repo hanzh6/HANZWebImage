@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/hanzh6/HANZWebImage'
+  s.homepage         = 'https://github.com/hanzh6/HANZWebImage.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hanzh6' => 'hanzh6@qq.com' }
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HANZWebImage/Classes/**/*'
+  s.source_files = 'HANZWebImage/Classes/**/*{h,m}'
   
   # s.resource_bundles = {
   #   'HANZWebImage' => ['HANZWebImage/Assets/*.png']
