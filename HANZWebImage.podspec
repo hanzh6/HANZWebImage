@@ -30,8 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HANZWebImage/Classes/**/*{h,m}'
-  
+  s.source_files = 'HANZWebImage/Classes/**/*'
+
+
   # s.resource_bundles = {
   #   'HANZWebImage' => ['HANZWebImage/Assets/*.png']
   # }
