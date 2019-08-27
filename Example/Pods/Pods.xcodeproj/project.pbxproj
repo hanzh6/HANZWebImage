@@ -157,22 +157,54 @@
 		B4DC0D1F2314CCE3000175A9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B4DC0D202314CCE3000175A9 /* HZDiskCache.m */,
-				B4DC0D212314CCE3000175A9 /* UIImageView+WebCache.h */,
-				B4DC0D222314CCE3000175A9 /* HZNetUtil.h */,
-				B4DC0D232314CCE3000175A9 /* HZMemoryCache.m */,
-				B4DC0D242314CCE3000175A9 /* NSString+MD5.h */,
+				B4DC0D3D2314DD33000175A9 /* imageView */,
+				B4DC0D3C2314DD0B000175A9 /* util */,
+				B4DC0D3B2314DCDD000175A9 /* Cache */,
+				B4DC0D3A2314DCBA000175A9 /* Net */,
 				B4DC0D252314CCE3000175A9 /* .gitkeep */,
-				B4DC0D262314CCE3000175A9 /* HZFileDataGetter.m */,
-				B4DC0D272314CCE3000175A9 /* HZDiskCache.h */,
-				B4DC0D282314CCE3000175A9 /* HZMemoryCache.h */,
-				B4DC0D292314CCE3000175A9 /* HZNetUtil.m */,
-				B4DC0D2A2314CCE3000175A9 /* UIImageView+WebCache.m */,
-				B4DC0D2B2314CCE3000175A9 /* NSString+MD5.m */,
-				B4DC0D2C2314CCE3000175A9 /* HZFileDataGetter.h */,
 			);
 			name = Classes;
 			path = HANZWebImage/Classes;
+			sourceTree = "<group>";
+		};
+		B4DC0D3A2314DCBA000175A9 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				B4DC0D222314CCE3000175A9 /* HZNetUtil.h */,
+				B4DC0D292314CCE3000175A9 /* HZNetUtil.m */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		B4DC0D3B2314DCDD000175A9 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				B4DC0D202314CCE3000175A9 /* HZDiskCache.m */,
+				B4DC0D232314CCE3000175A9 /* HZMemoryCache.m */,
+				B4DC0D272314CCE3000175A9 /* HZDiskCache.h */,
+				B4DC0D282314CCE3000175A9 /* HZMemoryCache.h */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		B4DC0D3C2314DD0B000175A9 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				B4DC0D242314CCE3000175A9 /* NSString+MD5.h */,
+				B4DC0D262314CCE3000175A9 /* HZFileDataGetter.m */,
+				B4DC0D2B2314CCE3000175A9 /* NSString+MD5.m */,
+				B4DC0D2C2314CCE3000175A9 /* HZFileDataGetter.h */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		B4DC0D3D2314DD33000175A9 /* imageView */ = {
+			isa = PBXGroup;
+			children = (
+				B4DC0D212314CCE3000175A9 /* UIImageView+WebCache.h */,
+				B4DC0D2A2314CCE3000175A9 /* UIImageView+WebCache.m */,
+			);
+			path = imageView;
 			sourceTree = "<group>";
 		};
 		B6B093D186CCCDEDC061FCCD352FF461 /* Pod */ = {
