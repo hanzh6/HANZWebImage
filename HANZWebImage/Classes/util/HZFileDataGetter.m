@@ -34,12 +34,12 @@ static HZDiskCache *diskCache;
 - (void)getFileData:(NSString *)url complete:(_Nullable HZFileCompletdBlock)complete{
     NSString *key = [NSString getMD5:url];
     HZMemoryCache *sharedCache = [HZMemoryCache sharedInstance];
-    NSData *data = [sharedCache getDataForKey:key];
-    if(data){
+    NSData *memoryData = [sharedCache getDataForKey:key];
+    if(memoryData){
         if(complete){
-           complete(data,nil);
+            complete(memoryData,nil);
         }else{
-            [self.delegate fileLoadSuccess:data];
+            [self.delegate fileLoadSuccess:memoryData];
         }
         return;
     }
@@ -47,9 +47,9 @@ static HZDiskCache *diskCache;
         if([diskCache containFile:key]){
             NSData *temp = [diskCache getFile:key];
             if(complete){
-                complete(data,nil);
+                complete(temp,nil);
             }else{
-                [self.delegate fileLoadSuccess:data];
+                [self.delegate fileLoadSuccess:temp];
             }
             [sharedCache putData:temp withKey:key];
             return;
@@ -69,7 +69,7 @@ static HZDiskCache *diskCache;
             [diskCache putFile:data withName:key];
         }];
     });
-
+    
 }
 
 @end

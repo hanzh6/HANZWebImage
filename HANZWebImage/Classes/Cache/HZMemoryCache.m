@@ -74,6 +74,7 @@
     HZFileNode *node = [self.nodeMap objectForKey:key];
     if(node){
         [self moveToTail:key];
+        pthread_rwlock_unlock(&(self->rwlock));
         return node->value;
     }
     pthread_rwlock_unlock(&(self->rwlock));
