@@ -68,7 +68,7 @@
     NSString *cacheDir = [cachePath stringByAppendingPathComponent:dirName];
     BOOL isDir;
     BOOL success = [fileManager fileExistsAtPath:cacheDir isDirectory:&isDir];
-    if(success&&isDir){
+    if(!success&&!isDir){
         NSError *error;
         BOOL success = [fileManager createDirectoryAtPath:cacheDir withIntermediateDirectories:YES attributes:nil error:&error];
         if(!success){
