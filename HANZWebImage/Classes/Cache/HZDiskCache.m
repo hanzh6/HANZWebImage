@@ -39,14 +39,16 @@
     return  [fileManager contentsAtPath:filePath];
 }
 
-- (void)putFile:(NSData *)data withName:(NSString *)fileName{
+- (BOOL)putFile:(NSData *)data withName:(NSString *)fileName{
     NSString *filePath = [self.cacheDir stringByAppendingPathComponent:fileName];
-    [fileManager createFileAtPath:filePath contents:data attributes:nil];
+    BOOL success = [fileManager createFileAtPath:filePath contents:data attributes:nil];
+    return success;
 }
 
-- (void)removeFile:(NSString *)fileName{
+- (BOOL)removeFile:(NSString *)fileName{
     NSString *filePath = [self.cacheDir stringByAppendingPathComponent:fileName];
-    [fileManager removeItemAtPath:filePath error:nil];
+    BOOL success = [fileManager removeItemAtPath:filePath error:nil];
+    return success;
 }
 
 - (void)removeAll{
@@ -64,7 +66,9 @@
 - (NSString *)createDirInCache:(NSString *)dirName{
     NSString *cachePath = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES)objectAtIndex:0];
     NSString *cacheDir = [cachePath stringByAppendingPathComponent:dirName];
-    if([fileManager fileExistsAtPath:cacheDir]){
+    BOOL isDir;
+    BOOL success = [fileManager fileExistsAtPath:cacheDir isDirectory:isDir]
+    if(success&&isDir){
         NSError *error;
         BOOL success = [fileManager createDirectoryAtPath:cacheDir withIntermediateDirectories:YES attributes:nil error:&error];
         if(!success){

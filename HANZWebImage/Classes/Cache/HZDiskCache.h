@@ -22,9 +22,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (NSData *)getFile:(NSString *)fileName;
 
-- (void)putFile:(NSData *)data withName:(NSString *)fileName;
+- (BOOL)putFile:(NSData *)data withName:(NSString *)fileName;
 
-- (void)removeFile:(NSString *)fileName;
+- (BOOL)removeFile:(NSString *)fileName;
 
 - (void)removeAll;
 
